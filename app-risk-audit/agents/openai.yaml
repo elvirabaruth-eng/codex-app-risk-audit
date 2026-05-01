@@ -1,0 +1,6 @@
+interface:
+  display_name: "App Risk Audit"
+  short_description: "Audit apps for code and security risks"
+  default_prompt: "Use $app-risk-audit to analyze this application and return a prioritized findings table."
+policy:
+  allow_implicit_invocation: true
